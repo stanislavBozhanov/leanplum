@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  devtool: 'eval-source-map', // for production just "source-map"
+  devtool: 'eval-source-map',
   entry: path.join(__dirname, 'src', 'main.tsx'),
   output: {
     path: path.resolve(__dirname, 'dist'),

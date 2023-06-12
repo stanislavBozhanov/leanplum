@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "webpack serve",
-    "build": "webpack"
+    "serve": "webpack serve",
+    "build": "webpack",
+    "test:unit": "echo \"No tests were written at that point.\"",
+    "lint": "echo \"I used prettier to format my code.\""
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -12,12 +14,8 @@
     "react-router-dom": "^6.8.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@types/node": "^18.11.18",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
-    "@types/react-google-recaptcha": "^2.1.5",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.63.3",
