@@ -12,7 +12,7 @@ export const UserDetails = ({ user }: UserDetailsProps) => {
     return (
       <div id="user-details">
         <div id="user-details-header">
-          <div id="user-details-title">No User Selected</div>
+          <div id="user-list-title">No User Selected</div>
         </div>
       </div>
     );
@@ -21,21 +21,21 @@ export const UserDetails = ({ user }: UserDetailsProps) => {
   return (
     <div id="user-details">
       <div id="user-details-header">
-        <div id="user-details-title">{user.id}</div>
-        <div id="user-details-subtitle">{`${dateFormat(user.created)} - ${user.location}`}</div>
+        <div id="user-list-title">{user.id}</div>
+        <div id="user-list-subtitle">{`${dateFormat(user.created)} - ${user.location}`}</div>
       </div>
       <div id="user-details-data">
-        <div id="user-details-devices">
-          <p>Devices</p>
-          <p>{user.devices}</p>
+        <div className="user-details-tile">
+          <div className="user-details-tile-title">Devices</div>
+          <div className="user-details-tile-data">{user.devices}</div>
         </div>
-        <div id="user-details-sessions">
-          <p>Sessions</p>
-          <p>{user.sessions.length}</p>
+        <div className="user-details-tile">
+          <div className="user-details-tile-title">Sessions</div>
+          <div className="user-details-tile-data">{user.sessions.length}</div>
         </div>
-        <div id="user-details-events">
-          <p>Events</p>
-          <p>{user.events}</p>
+        <div className="user-details-tile">
+          <div className="user-details-tile-title">Events</div>
+          <div className="user-details-tile-data">{user.events}</div>
         </div>
       </div>
       <div id="user-details-attributes">

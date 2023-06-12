@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #audience-container {
   display: flex;
   flex-direction: row;
@@ -6,15 +10,13 @@
 #user-list {
   flex: 2;
   height: 100vh;
-  background-color: #f6f9fb;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   overflow: hidden;
 }
 
 #user-details {
   flex: 3;
-  height: calc(100vh - 24px);
-  background-color: #fff;
+  height: 100vh;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
   padding: 24px;
 }

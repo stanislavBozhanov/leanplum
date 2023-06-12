@@ -16,7 +16,6 @@ If you decide to use this sample project, here are a few tips:
 
 - To lint and fix style issues, use `yarn lint`.
 
-
 # Project specification
 
 Create a page that looks like the image below.
@@ -32,7 +31,6 @@ Create a page that looks like the image below.
 - Bind the list to the sample data provided in `src/models/UsersEntity.ts`.
 
 - Selecting an item from the list should display its details in the details view.
-
 
 ### Styling
 

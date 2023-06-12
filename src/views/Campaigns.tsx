@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColumnDescriptor, Table } from '../components/Table2';
+import { ColumnDescriptor, Table } from '../components/Table';
 import { CampaignEntity, CampaignStatus, SAMPLE_DATA } from '../models/CampaignEntity';
 
 export const Campaigns = () => {
