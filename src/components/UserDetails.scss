@@ -1,0 +1,12 @@
+#user-details-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+#user-details-data div {
+  width: 33%;
+  background-color: #f6f9fb;
+  text-align: left;
+}
